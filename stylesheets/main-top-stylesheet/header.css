@@ -1,3 +1,4 @@
-p {
-    color: red;
+.main-top-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
 }
