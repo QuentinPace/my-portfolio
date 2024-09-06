@@ -1,0 +1,14 @@
+.main-top-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+}
+
+.main-top {
+    background-image: url('https://rare-gallery.com/uploads/posts/994493-minimalism-planet-blue-bright-simple-background.png');
+    background-size: cover;
+}
+
+.main-top 
+
