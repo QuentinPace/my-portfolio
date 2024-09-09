@@ -24,11 +24,15 @@ h6 {
 h1,
 p,
 span,
-h2,
-h4,
 h6 {
     color: white;
     font-family: "Comfortaa", sans-serif;
+}
+
+h2, h4 {
+    color: rgb(211, 211, 211);
+    font-family: "Comfortaa", sans-serif;
+
 }
 
 i {
