@@ -1,7 +1,4 @@
 @media (Max-width: 1200px) {
-    h1 {
-        color: red;
-    }
 
     .main-top-header {
         grid-template-areas: "b" "c";
@@ -26,10 +23,7 @@
 
 }
 
-@media (Max-width: 800px) {
-    h1 {
-        color: green;
-    }
+@media (Max-width: 750px) {
 
     h2 {
         display: none;
@@ -38,6 +32,11 @@
     .main-top-bottom {
         height: 400px;
 
+    }
+
+    .icons-header {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     i {
@@ -60,10 +59,39 @@
 
 @Media (Max-width: 560px) {
     h1 {
-        font-size: 52px;
+        font-size: 45px;
     }
     .main-top-bottom {
         height: 300px;
 
     }
+
+    h4 {
+        font-size: 25px;
+    }
 }
+
+@Media (Max-width: 375px) {
+    h4 {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 33px;
+    }
+    .main-top-bottom {
+        height: 300px;
+
+    }
+
+    i {
+        margin: 3px;
+        font-size: 15px;
+    }
+
+    .icons-header {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
