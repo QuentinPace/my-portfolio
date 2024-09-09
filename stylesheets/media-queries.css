@@ -1,0 +1,27 @@
+@media (Max-width: 1200px) {
+    h1 {
+        color: red;
+    }
+
+    .main-top-header {
+        grid-template-areas: "a b" "c c";
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 3fr;
+    }
+    .icons-header {
+        grid-area: c;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .header-name-container {
+        grid-area: a;
+
+    }
+
+    .contact-info-header {
+        grid-area: b;
+    }
+
+}
