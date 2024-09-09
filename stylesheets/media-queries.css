@@ -4,20 +4,15 @@
     }
 
     .main-top-header {
-        grid-template-areas: "a b" "c c";
+        grid-template-areas: "b" "c";
         grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr 3fr;
+        grid-template-columns: 1fr;
     }
     .icons-header {
         grid-area: c;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-    }
-
-    .header-name-container {
-        grid-area: a;
-
     }
 
     .contact-info-header {
