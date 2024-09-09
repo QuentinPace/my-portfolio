@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-bottom: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.514);
 }
 
 .main-top-header div {
@@ -26,5 +27,10 @@
 .contact-info-header {
     display: flex;
     justify-content: space-around;
+
+}
+
+.linkedin-header *:hover {
+    cursor: pointer;
 
 }
