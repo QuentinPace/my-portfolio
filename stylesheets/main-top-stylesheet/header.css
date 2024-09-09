@@ -5,6 +5,12 @@
     background-color: rgba(0, 0, 0, 0.514);
 }
 
+.linked-in-link i {
+    font-size: 10px;
+    margin-left: 3px;
+}
+
+
 .main-top-header div {
     display: flex;
     align-items: center;
