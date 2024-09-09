@@ -19,4 +19,51 @@
         grid-area: b;
     }
 
+    .main-top-bottom {
+        height: 500px;
+
+    }
+
+}
+
+@media (Max-width: 800px) {
+    h1 {
+        color: green;
+    }
+
+    h2 {
+        display: none;
+    }
+
+    .main-top-bottom {
+        height: 400px;
+
+    }
+
+    i {
+        margin: 5px;
+        font-size: 17px;
+    }
+    
+    h6 {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .phone-header h6 {
+        display: none;
+    }
+
+
+}
+
+@Media (Max-width: 560px) {
+    h1 {
+        font-size: 52px;
+    }
+    .main-top-bottom {
+        height: 300px;
+
+    }
 }
