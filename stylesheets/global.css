@@ -23,6 +23,7 @@ h6 {
 }
 
 a,
+button,
 h1,
 p,
 span,
@@ -46,4 +47,8 @@ i {
 a:hover {
     color: rgb(81, 81, 255);
     h1 {color: red;}
+}
+
+button {
+    text-align: center;
 }
