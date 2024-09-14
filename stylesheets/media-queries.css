@@ -44,7 +44,12 @@
         margin: 5px;
         font-size: 17px;
     }
-    
+
+    .linkedIn-button p {
+        font-size: 12px;
+        margin: 0px;
+    }
+
     a,
     h6 {
         font-size: 12px;
