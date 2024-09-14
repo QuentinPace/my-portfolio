@@ -16,6 +16,10 @@
     overflow: hidden;
 }
 
+.name-container {
+    border-bottom: 4px solid white;
+}
+
 
 
 
